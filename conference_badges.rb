@@ -24,8 +24,16 @@ def assign_rooms(name)
 end
 
 def printer(attendees)
-  badges = batch_badge_creator(attendees)
-  rooms = assign_rooms(attendees)
+  badges = []
+  rooms = []
+  i = 0
+  while i < attendees.length
+    badges.push("Hello, my name is #{attendees[i]}.")
+    rooms.push("Hello, #{attendees[i]}! You'll be assigned to room #{i+1}!")
+    i+=1
+  end
   puts badges
   puts rooms
+
+
 end
