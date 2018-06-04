@@ -24,8 +24,8 @@ def assign_rooms(name)
 end
 
 def printer(attendees)
-  i = 0
-  puts "Hello, my name is #{attendees[i]}."
+puts batch_badge_creator
+puts assign_rooms
 #  badges = []
 #  rooms = []
 #  i = 0
