@@ -34,6 +34,4 @@ def printer(attendees)
   end
   puts badges
   puts rooms
-
-
 end
