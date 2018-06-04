@@ -1,5 +1,5 @@
 # Write your code here.
-def batch_badge_creator(arr)
+def badge_maker(arr)
   badges = []
   i = 0
   while i < arr.length
