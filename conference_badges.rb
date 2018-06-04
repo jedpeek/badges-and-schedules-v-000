@@ -24,6 +24,7 @@ def assign_rooms(name)
 end
 
 def printer(attendees)
+  i = 0
   puts "Hello, my name is #{attendees[i]}."
 #  badges = []
 #  rooms = []
