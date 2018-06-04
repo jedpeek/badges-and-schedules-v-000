@@ -24,9 +24,6 @@ def assign_rooms(name)
 end
 
 def printer(attendees)
-  i = 0
-  while i < attendees.length
-puts "Hello, my name is #{attendees[i]}."
-i+= 1
-end
+  puts badge_maker(attendees)
+  puts assign_rooms(attendees)
 end
