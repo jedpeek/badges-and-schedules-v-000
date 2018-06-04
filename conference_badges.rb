@@ -24,5 +24,5 @@ def assign_rooms(name)
 end
 
 def printer(name)
-puts assign_rooms
+puts assign_rooms(name)
 end
