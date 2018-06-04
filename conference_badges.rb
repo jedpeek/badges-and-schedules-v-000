@@ -26,7 +26,7 @@ end
 def printer(attendees)
   i = 0
   while i < attendees.length
-puts "Hello, #{name[i]}! You'll be assigned to room #{i+1}!"
+puts "Hello, my name is #{attendees[i]}."
 i+= 1
 end
 end
