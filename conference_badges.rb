@@ -23,6 +23,6 @@ def assign_rooms(name)
   return rooms
 end
 
-def printer
+def printer(name)
 puts assign_rooms
 end
