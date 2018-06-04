@@ -26,7 +26,7 @@ end
 def printer(name)
   i = 0
   while i < name.length
-puts badge_maker(name[i])
+puts assign_rooms(name[i])
 i+= 1
 end
 end
